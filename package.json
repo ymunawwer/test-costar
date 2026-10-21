@@ -1,0 +1,22 @@
+{
+  "name": "azure-function-test",
+  "version": "1.0.0",
+  "main": "dist/functions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "@azure/functions": "^4.16.5",
+    "@azure/functions-extensions-servicebus": "^0.5.1",
+    "@azure/service-bus": "^7.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
